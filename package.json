@@ -1,0 +1,28 @@
+{
+  "name": "reflux-react-16",
+  "version": "1.0.0",
+  "description": "Reflux Package for React 16",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ied3vil/reflux-react-16.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --output ./dist/index.js",
+    "dev": "webpack --mode development --output ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "reflux-core": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  }
+}
